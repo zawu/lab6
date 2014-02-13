@@ -62,6 +62,7 @@ function randomizeColors(e) {
 	$.get("/palette", addColor);
 }
 
+
 function addColor(result){
 	var temp = result['colors'];
 	var colors = temp['hex'];
